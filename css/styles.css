@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+}
+
+nav {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+.MenuHyperlink {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+* {
+  margin: auto;
+  padding: auto
+  background-color: #ffffff
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+table {
+  border-spacing: 10px;
+  margin-top: 80px;
+  text-align: center;
+  font-size:small;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border: #ffffff
+  
+
+}
+
+.TabelaLegendas {
+  margin-top: auto;
+  text-align: center;
+  font-size:small;
+  margin: auto;
+  border-collapse: collapse;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.TituloLegendas {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size:larger;
+}
+
+td {
+  border-radius: 5px;
+  width: 100px;
+}
+
+tr {
+  height: 100px;
+}
+
+td:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.shadow {
+  text-shadow: #000 2px 3px 2px;
+   
+}
+
+.bolded {
+  font-weight: bolder;
+}
+
+.bodyElementos {
+  text-align:justify
+  margin: auto;
+  padding: auto; 
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff
+  text-decoration: none;
+  
+}
+
+.NaoMetais {
+  background-color:#95e6a0;
+  border: 1px;
+
+}
+
+.GasesNobres {
+  background-color:#596fd1;
+  border: 1px;
+    
+}
+
+.MetaisAlcalinos {
+  background-color:#f0ae4f;
+  border: 1px;
+    
+}
+
+.MetaisAlcalinoTerrosos {
+  background-color:#f0e087;
+  border: 1px;
+    
+}
+
+.Semimetais {
+  background-color:#6befcf;
+  border: 1px;
+    
+}
+
+.Halogenios {
+  background-color:#6bd9ef;
+  border: 1px;
+    
+}
+
+.OutrosMetais {
+  background-color:#b3c7cb;
+  border: 1px;
+    
+}
+
+.MetaisTransicao {
+  background-color:#f48585;
+  border: 1px;
+    
+}
+
+.Lantanideos {
+  background-color:#bdf7f3;
+  border: 1px;
+    
+}
+
+.Actinidios {
+  background-color:#ebbaff;
+  border: 1px;
+    
+}
+
+
